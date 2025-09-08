@@ -4,12 +4,8 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-
-from typing import Optional
-from tree_node import TreeNode
-
 class Solution:
-    def postorderTraversal(self, root: Optional[TreeNode]) -> list[int]:
+    def postorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
         if not root:
             return []
         
