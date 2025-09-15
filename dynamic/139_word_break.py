@@ -1,9 +1,4 @@
-def fun2():
-
 class Solution:
-    def fun1(self):
-        return True
-    
     def wordBreak(self, s: str, wordDict: List[str]) -> bool:
         if not s:
             return False
