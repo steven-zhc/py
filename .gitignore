@@ -6,8 +6,28 @@ dist/
 wheels/
 *.egg-info
 
-# Virtual environments
-.venv
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment files
+.venv/
+env/
+venv/
+
+# Python compiled files
+__pycache__/
+*.pyc
+
+# IDE-specific files (e.g., VS Code)
+.vscode/
+
+# Log files
+*.log
+
+# Data files (if not intended for version control)
+*.csv
+*.json
+*.parquet
 
 # vscode
 .vscode
